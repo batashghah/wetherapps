@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather">
+<EditText
+    android:id="@+id/insertcity"
+    android:textColorHint="#ffffff"
+    android:fontFamily="sans-serif"
+    android:textColor="#ffff"
+    android:textSize="50dp"
+    android:gravity="center"
+    android:hint="City Name"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:nextFocusDown="@+id/btnserch"
+    android:singleLine="true"/>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/transparent"
+        android:text="Serch"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_margin="5dp"
+        android:id="@+id/btnserch"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <ImageView
+            android:background="@drawable/download"
+            android:id="@+id/imghum"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="85dp"
+            android:text="Temperature"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16dp"/>
+        <TextView
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/txttemp"
+            android:layout_gravity="center"
+            android:hint="temp"
+            android:gravity="center"
+            android:background="@color/transparent"
+            android:textSize="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <ImageView
+            android:background="@drawable/images"
+            android:id="@+id/imgtemp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="85dp"
+            android:text="Humidity"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/txthum"
+            android:layout_gravity="center"
+            android:hint="hum"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="city name"
+        android:textColorHint="#ffffff"
+        android:textSize="50sp"/>
+
+
+
+</LinearLayout>

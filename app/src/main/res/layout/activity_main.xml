@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#76ff76">
+    <EditText
+        android:id="@+id/insertcity"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#ff54ff"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/today"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"/>
+        <TextView
+            android:id="@+id/onday"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#eeeeee"/>
+        <TextView
+            android:id="@+id/twoday"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffee"/>
+        <TextView
+            android:id="@+id/threeday"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/btnserch"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Serch"/>
+
+    </LinearLayout>
+
+</LinearLayout>
